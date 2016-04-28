@@ -16,25 +16,25 @@ using namespace std ;
 class TFunction
 {
     private :
-    string currentState ;
-    string currentCharacter ;
-    string newState ;
-    string characterToBeWritten ;
-    string direaction ;
+        string currentState ;
+        string currentCharacter ;
+        string newState ;
+        string characterToBeWritten ;
+        string direaction ;
     public:
-    TFunction(string cState , string curChara , string nState , string nChara , string dir) ;
-    TFunction() ;
-    void setCurrrentState(string cState);
-    string getCurrentState();
-    void setCurrentCharacter(string cChar);
-    string getCurrentCharacter();
-    void setNewState(string nState);
-    string getNewState();
-    void setCharacterToBeWritten(string nChara);
-    string getCharacterToBeWritten();
-    void setDireaction(string dir);
-    string getDireaction();
-    void print();
+        TFunction(string cState , string curChara , string nState , string nChara , string dir) ;
+        TFunction() ;
+        void setCurrrentState(string cState);
+        string getCurrentState();
+        void setCurrentCharacter(string cChar);
+        string getCurrentCharacter();
+        void setNewState(string nState);
+        string getNewState();
+        void setCharacterToBeWritten(string nChara);
+        string getCharacterToBeWritten();
+        void setDireaction(string dir);
+        string getDireaction();
+        void print();
     
 };
 #endif /* TFunction_hpp */

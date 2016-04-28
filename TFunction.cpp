@@ -18,6 +18,9 @@ TFunction::TFunction(string cState , string curChara , string nState , string nC
     characterToBeWritten = nChara ;
     direaction = dir ;
 }
+/* 
+    setters and getters .
+ */
 
 void TFunction::setCurrrentState(string cState)
 {
@@ -66,6 +69,9 @@ string TFunction::getDireaction()
 
 void TFunction::print()
 {
+    /*
+        A usual method to print the contents of a transition function .
+     */
     cout<<"\t================================================="<<endl ;
     cout<<"\tcurrent state: "<<currentState<<endl ;
     cout<<"\tcurrent character "<<currentCharacter<<endl ;

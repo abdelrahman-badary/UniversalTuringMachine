@@ -19,6 +19,7 @@ int main(int argc, const char * argv[]) {
     string descriptionFilePath ;
     //path to input file .
     string inputFilePath ;
+    
     if(descriptionFilePath.empty() || inputFilePath.empty())
     {
         cout<<"Error: Please specify the path to the description and input files in code"<<endl ;

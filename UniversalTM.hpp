@@ -24,6 +24,8 @@ class UniversalTM
     private:
         fstream description_file ;
         fstream input_file ;
+        State currentState ;
+        InputTapeEngine tapeEngine ;
         void initTransFunction() ;
         string* decodeString(string line);
         TFunction createFunction(string* arr) ;
@@ -34,8 +36,6 @@ class UniversalTM
         bool stateIdIstored(string id) ;
         void extractStates() ;
         vector<TFunction> extractFunctionsRelatedToState(string stateID);
-        State currentState ;
-        InputTapeEngine tapeEngine ;
         State findState(string stateID);
     
     

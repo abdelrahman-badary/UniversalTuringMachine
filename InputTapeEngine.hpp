@@ -23,7 +23,6 @@ class InputTapeEngine
     public:
         InputTapeEngine();
         InputTapeEngine(string inFile);
-        void setInputFile(string inFile);
         string readInput();
         void write(string direaction , string output);
         void halt();
